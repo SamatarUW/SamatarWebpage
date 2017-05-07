@@ -1,36 +1,89 @@
-
 #name {
-	position: absolute;
-	left: 40%;
-	top: 0;
-	color: black;
-	font-size: 38px;
-	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-	padding-top: 0%;
+	position: relative;
+	margin: auto;
+	text-align: center;
+	top: 10px;
+	color: #001a33;
+	font-size: 80px;
+	font-family: 'Lato', sans-serif;
 }
 
 #list {
-	color: black;
-	padding-top: 250px;
+	position: relative;
+	font-size: 130%;
+	top: 125px;
+	color: 	#29293d;
+}
+
+.clear {
+	clear: both;
+}
+
+p {
+	width: 60%;
+	line-height: 120%;
+	color: #001a33;
+}
+
+ul li {
+	font-size: 17px;
+	color: #001a33;
+	padding: 15px 0 0 15px;
 }
 
 body {
-	background-image: url("Images/background.jpg");
+	background-color: #ecf2f9;
 }
 
-#face {
-	position: absolute;
-	top: 60px;
-	left: 41%;
-	z-index:; 1;
+i {
+	margin-left: 10%;
+	margin-right: 10%;
+	color: #001a33;
+}
+
+i:hover {
+	color: white;
+	-webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#resume {
+	position: relative;
+	margin: auto;
+	text-align: center;
+	color: #001a33;
+	top: 45px;
+	left: 47.8%;
+}
+
+#resume:hover {
+	color: white;
+	-webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#contactinfo {
+	position: relative;
+	top: 85px;
+}
+
+#ed {
+	color: #001a33;
+}
+
+h3 {
+	color: #001a33;
+	font-size: 25px;
 }
 
 .jumbotron {
 	background-color: #00BFFF;
-	background-image: url("Images/header.jpg");
-	background-size: 100% 120%;
-	height: 300px;
-	margin-bottom: 10%;
+	background-image: url("Images/header.gif");
+	background-size: 100% 100%;
+	height: 550px;
+	margin-bottom: 3%;
 }
 
 .mynav {
@@ -50,10 +103,12 @@ li a {
 	background-color: black;
 	display: block;
     color: white;
-    padding: 10px;
+    padding-top: 45%;
+    padding-left: 10px;
+    padding-right: 10px;
     text-decoration: none;
     width: 100px;
-    height: 75px;
+    height: 112.5px;
     transition: 0.3s
 }
 
@@ -63,8 +118,14 @@ li a:hover {
     text-decoration: none;
 }
 
+hr {
+	border-color: #c2c2d6;
+	width: 86%;
+}
+
 .title {
-	font-size: 30px;
+	font-size: 50px;
+	font-family: 'Lato', sans-serif;
 	padding-left: 7%;
 	padding-top: 1%;
 	color: #00BFFF;
@@ -76,45 +137,103 @@ li a:hover {
 	object-fit: cover;
 }
 
-#projimg {
+.projtitle {
 	position: relative;
-	right: 20px;
-	margin-top: 8%;
-	margin-bottom: 8%;
-	border-style: solid;
-	border-width: 2px;
-	border-color: #00BFFF;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 25px;
+	color: #00BFFF;
+	font-family: 'Lato', sans-serif;
 }
 
-#projimg:hover {
-	-webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
+#sstitle {
+	position: relative;
+	left: 20px;
+}
+
+#mjtitle {
+	position: relative;
+	right: 65px;
+}
+
+.projimg {
+	position: relative;
+	left: 80px;
+	float: left;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 100px;
+	border: 2px #001a33 solid;
+}
+
+.projimg:hover {
+	-webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
     border-color: yellow;
 }
 
-#projimg2 {
+.projdesc {
 	position: relative;
-	margin-top: 5%;
-	margin-bottom: 5%;
-	border-style: solid;
-	border-width: 2px;
-	border-color: #00BFFF;
+	float: left;
+	margin-top: 15px;
+	font-family: 'Lato', sans-serif;
+	color: #001a33;
 }
 
-#projimg2:hover {
-	-webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-    border-color: yellow;
+.workdesc {
+	position: relative;
+	float: left;
+	font-family: 'Lato', sans-serif;
+	color: #001a33;
 }
 
-ul {
-	list-style-type: none;
+.source {
+	width: 220px;
+	border-radius: 15px;
+	border: 1px #001a33 solid;
+	padding: 10px 0px 3px 0px;
+	position: relative;
+	background-color: #ecf2f9;
+	top: 25px;
+	margin: 0 auto;
+	text-align: center;
 }
 
-ul li {
-	font-size: 18px;
+.source:hover {
+	background-color: #00BFFF;
+	cursor: pointer;
+}
+
+#sourcess {
+	position: relative;
+	left: 15px;
+}
+
+#sourcebc {
+	position: relative;
+	top: 20px;
+}
+
+#sourcemj {
+	position: relative;
+	right: 68px;
+	top: 20px;
+}
+
+#sourcepg {
+	position: relative;
+	left: 3px;
+}
+
+#kennasource {
+	position: relative;
+	top: 10px;
+}
+
+#agrsource {
+	position: relative;
+	top: 10px;
 }
 
 .last {
@@ -133,94 +252,170 @@ ul li {
 	border-color: #00BFFF;
 }
 
+#skills {
+	position: relative;
+	margin: 0 auto;
+	left: 17%;
+
+}
+
+.skill {
+	position: relative;
+	float: left;
+	padding: 10px;
+	background-color: #ecf2f9;
+	margin-right: 70px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 1px #001a33 solid;
+	border-radius: 10px;
+	font-size: 150%;
+	color: #001a33;
+}
+
+#skillbar {
+	position: relative;
+	padding-top: 13px;
+	font-size: 120%;
+	width: 80%;
+	height: 50px;
+	border: 1px #001a33 solid;
+	border-radius: 30px;
+	color: #001a33;
+	margin:	0 auto;
+	text-align: center;
+}
+
+#zero {
+	position: relative;
+	float: left;
+	right: 27%;
+	margin:	0;
+}
+
+#hunned {
+	position: relative;
+	float: right;
+	margin:	0;
+}
+
 #circle {
-	width: 15px;
-	height: 15px;
+	width: 20px;
+	height: 20px;
 	border-radius: 25px;
 	background-color: #00BFFF;
 	margin-bottom: 2%;
 }
 
 #bigc {
-	width: 25px;
-	height: 25px;
+	width: 30px;
+	height: 30px;
 	border-radius: 35px;
 	background-color: #00BFFF;
 	margin-bottom: 2%;
 }
 
 #smallc {
-	width: 8px;
-	height: 8px;
+	width: 12px;
+	height: 12px;
 	border-radius: 18px;
 	background-color: #00BFFF;
 	margin-bottom: 2%;
 }
 
-p {
-	line-height: 120%;
-	margin-left: 2%;
+.topc {
+	margin-top: 35px;
 }
 
-#git {
-	color: orange;
-	font-size: 18px;
+@media screen and (max-width: 1125px) {
+	#resume {
+		left: 47.3%;
+	}
+	#list {
+		top: 100px;
+		font-size: 120%;
+	}
+	#skills {
+		left: 9%;
+	}
+	.projdesc {
+		clear: both;
+		left: 6%;
+	}
+	.workdesc {
+		clear: both;
+		left: 6%;
+	}
+	.projtitle {
+		margin: 0;
+		text-align: left;
+	}
+	#sstitle {
+		left: 0px;
+	}
+	#mjtitle {
+		right: 0px;
+	}
+	.source {
+		margin: 0;
+	}
+	#sourcess {
+		left: 0px;
+	}
+	#sourcepg {
+		left: 0px;
+	}
+	#sourcemj {
+		right: 0px;
+	}
 }
 
-#skillwell {
-	padding-bottom: 1%;
+@media screen and (max-width: 692px) {
+	#resume {
+		left: 44.5%;
+	}
+	p {
+		width: 100%;
+	}
 }
 
-#wk {
-	float: left;
-	margin-right: 40%;
-	margin-left: 10%;
+@media screen and (max-width: 596px) {
+	.jumbotron {
+		height: 638px;
+	}
 }
 
-#bk {
-	position: relative;
-	margin-left: 10%;
+@media screen and (max-width: 991px) {
+	.projimg {
+		left: 40px;
+	}
+	.projdesc {
+		clear: both;
+		left: 3%;
+	}
+	.workdesc {
+		clear: both;
+		left: 3%;
+	}
+	.skill {
+		margin-right: 30px;
+	}
 }
 
-#wtitle {
-	color: 	#00BFFF;
+@media screen and (max-width: 672px) {
+	.skill {
+		font-size: 110%;
+		margin-right: 15px;
+	}
 }
 
-#btitle {
-	color: 	black;
-}
-
-.panel {
-	background-color: #625F5F;
-	margin-bottom: 0;
-	width: 400px;
-	border-style: solid;
-	border-width: 2px;
-	border-color: #00BFFF;
-	font-size: 30px;
-	padding-top: 1%;
-	font-family: "Arial Black", Gadget, sans-serif;
-	font-style: bold;
-	color: white;
-}
-
-i {
-	padding-top: 0%;
-	margin-bottom: 1%;
-	float: left;
-	margin-left: 8%;
-	margin-right: 3%;
-	color: white;
-}
-
-i:hover {
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-    color: #00BFFF;
-}
-
-h3 {
-	color: white;
-	font-size: 18px;
+@media screen and (max-width: 490px) {
+	#list {
+		top: 100px;
+		font-size: 100%;
+	}
+	i {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
 }
