@@ -1,60 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>MyWebsite</title>
+	<title>Samatar Abukar</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="stylepage.css"/>
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
 
 	<div class="jumbotron">
-  		<center><h2 id = "list">Student, Entrepreneur, Creator</h2></center>
+		<center><h1 id = "name" >Samatar Abukar</h1></center>
+		<center><p id="ed" class="fa fa-graduation-cap" style="font-size:25px">	University of Waterloo, Computer Science</p></center>
+		<a id="resume" href="https://github.com/SamatarUW"><div class="fa fa-file-text" style="font-size:70px"><br><p>Resumé</p></div></a>
+	  	<center><div id="contactinfo">
+		  	<a href="mailto:samatar.abukar@gmail.com"><i class="fa fa-envelope" style="font-size:65px"></i></a>  	
+		  	<a href="https://www.linkedin.com/in/samatar-abukar-34128594?trk=hp-identity-name"><i class="fa fa-linkedin-square" style="font-size:65px"></i></a>	
+		  	<a href="https://github.com/SamatarUW"><i class="fa fa-github-alt" style="font-size:65px"></i></a>
+		</div></center>
+		<center>	
+  			<i><p id = "list">Curious student, quick learner and passionate about software and data engineering. Looking for internships to gain new 
+			skills and be a part of something great.</p></i></center>
+		<center>
+	</center>
   	</div>
-  	<center><h1 id = "name" >Samatar Abukar</h1></center>
-  	<center><img id="face" src="Images/face.jpg" class="img-circle" width="250px" height="250px"></center>
 
-    <ul class="mynav">
-      <li><a href="#abouticon">About</a></li>
-      <li><a href="#projecticon">Projects</a></li> 
-      <li><a href="#skillsicon">Skills</a></li> 
-      <li><a href="#contacticon">Contact</a></li> 
-    </ul>	
+    <!--<ul class="mynav">
+      <li><a href="#abouticon">Samatar</a></li>
+      <li><a href="#projecticon">Projects</a></li>
+      <li><a href="#skillsicon">Work Experience</a></li>
+    </ul>-->
 
-  	<div class="container">
-  		<img id="abouticon" class="icon" src="Images/about-me.png" width="50px" height="50px" alt="about me">
-  		<div>
-  			<p class="title">About me</p>
-  		</div>
-  		<dir class="well ">
-  		<p>Hello! I am Samatar Abukar, a second year student at the University of Waterloo studying Computer Science. I like to see myself as a creative and innovative person with a knack for learning. In the past I&#39ve built many projects which can be seen below and have some in the works as well. Whether it&#39s a new start-up idea or just an app for fun, the feeling of creating something new and seeing it work the way you imagined is priceless, and that is what my Computer Science is all about.</p>
-  		</dir>
-  	</div>
+    <center><div class="container">
+		<div id="smallc" class="topc"></div>
+		<div id="circle"></div>
+		<div id="bigc"></div>
+		<div id="circle"></div>
+		<div id="smallc"></div>
+	</div></center>
 
 	<div class="container">
-		<center><div id="smallc"></div></center>
-		<center><div id="circle"></div></center>
-		<center><div id="bigc"></div></center>
-		<center><div id="circle"></div></center>
-		<center><div id="smallc"></div></center>
-	</div>
-
-  	<div class="container">
-  		<img id="projecticon" class="icon" src="Images/projects.png" width="50px" height="50px" alt="projects">
   		<div>
-  			<p class="title">Projects</p>
+  			<p class="title">Experience</p>
   		</div>
-		<center>
-			<h3>Here is a link to my github account containing relevant projects
-			I have created over the years!</h3>
-			<a id="git" href="https://github.com/SamatarUW"> My Github!</a>
-			<img id="projimg" src="Images/SolarSystem.jpg" class="img-responsive" width="400px" height="350px" alt="Solar System">
-			<img id="projimg2" src="Images/BigCatch.jpg" class="img-responsive" width="400px" height="350px" alt="Big Catch">
-		</center>
-  	</div>
+  		<hr>
+  			<div class="projs"><img class="projimg" src="Images/kenna.png" class= "img-responsive" width="200px" height="200px" alt="Big Catch"></div>
+  			<ul type="disc" class="workdesc">
+  					<p class="projtitle">Kenna</p>
+  					<li>Created SQL scripts to maximize product rewards of over 90,000 customers using sales data from <br> multiple databases and tables</li>
+	  				<li>Added error logging functionality to existing web applications using Javascript, jQuery and LotusScript</li>
+	  				<li>Increased efficiency of existing SQL scripts on live sites from over 3 minutes to under 2 seconds</li>
+	  				<li>Developed database applications which are automated</li>
+	  				<a href="http://kenna.ca/"><div id="kennasource" class="source"><p class="fa fa-laptop" style="font-size:20px"> Website</p></div></a>
+	  				<br>
+	  		</ul>
+	  		<p class="clear"></p>
+			<div class="projs"><img class="projimg" src="Images/agrifood.jpg" class= "img-responsive" width="250px" height="150px" alt="Solar System"></div>
+			<ul type="disc" class="workdesc">
+					<p class="projtitle">Agriculture and Agri-food Canada</p>
+					<li>Provided continued maintenence and updates of bug fixes for existing web applications</li>
+	  				<li>Performed functional testing using Firefox web developer tools</li>
+	  				<li>Gained experience debugging HTML and CSS classes</li>
+	  				<a href="http://www.agr.gc.ca/eng/home/?id=1395690825741"><div id="agrsource" class="source"><p class="fa fa-laptop" style="font-size:20px"> Website</p></div></a>
+	  				<br>
+	  		</ul>
+	  		<p class="clear"></p>
+  		<hr>
+  	</div>	
 
-  	<center><div class="container">
+	<center><div class="container">
 		<div id="smallc"></div>
 		<div id="circle"></div>
 		<div id="bigc"></div>
@@ -63,56 +76,95 @@
 	</div></center>
 
   	<div class="container">
-  		<img id="skillsicon" class="icon" src="Images/skills.png" width="50px" height="50px" alt="skills">
+  		<div>
+  			<p class="title">Projects</p>
+  		</div>
+  		<hr>
+  			<div class="projs"><img class="projimg" src="Images/pokeffect.jpg" class= "img-responsive" width="280px" height="200px" alt="Big Catch"></div>
+  			<ul type="disc" class="projdesc">
+  					<p class="projtitle">Pokeffect</p>
+	  				<li>Web application to get useful up to date info on all Pokemon</li>
+	  				<li>Data extracted from open source Pokeapi using ajax calls and parsing JSON</li>
+	  				<li>Deployed on heroku using Node, HTML5, CSS, Javascript and jQuery</li>
+	  				<a href="https://github.com/SamatarUW/Pokeffect"><div class="source"><p class="fa fa-code" style="font-size:20px"> Source Code</p></div></a>
+	  				<br>
+	  		</ul>
+	  		<p class="clear"></p>
+			<div class="projs"><img class="projimg" src="Images/SolarSystem.jpg" class= "img-responsive" width="280px" height="200px" alt="Solar System"></div>
+			<ul type="disc" class="projdesc">
+					<p id="sstitle" class="projtitle">Solar System Simulator</p>
+	  				<li>Interactive solar system simulator where one can create custom planets</li>
+	  				<li>Designed the project using Object-Oriented programming</li>
+	  				<li>Written in Java with use of JFrame graphics library</li>
+	  				<a href="https://github.com/SamatarUW/Solar-System-Simulation"><div id="sourcess" class="source"><p class="fa fa-code" style="font-size:20px"> Source Code</p></div></a>
+	  				<br>
+	  		</ul>
+	  		<p class="clear"></p>
+			<div class="projs"><img class="projimg" src="Images/BigCatch.jpg" class= "img-responsive" width="280px" height="200px" alt="Big Catch"></div>
+  			<ul type="disc" class="projdesc">
+  					<p class="projtitle">The Big Catch</p>
+	  				<li>Mouse interactive game where one controls a shark to eat the incoming fish</li>
+	  				<li>Written in Python with use of Tkinter graphics library</li>
+	  				<a href="https://github.com/SamatarUW/The-Big-Catch-Game"><div id="sourcebc" class="source"><p class="fa fa-code" style="font-size:20px"> Source Code</p></div></a>
+	  				<br>
+	  		</ul>
+	  		<p class="clear"></p>
+	  		<div class="projs"><img class="projimg" src="Images/pokemonguess.jpg" class= "img-responsive" width="280px" height="200px" alt="Big Catch"></div>
+  			<ul type="disc" class="projdesc">
+  					<p class="projtitle">Pokemon Guessing Game</p>
+	  				<li>Java program to predict users favourite Pokemon (within list) in 6 or less <br> yes/no questions</li>
+	  				<li>Manipulated 2d arrays and filtered based on user input to make predictions</li>
+	  				<li>Parsed text file to access the Pokemon and stored attributes</li>
+	  				<a href="https://github.com/SamatarUW/Pokemon-Guesser"><div id="sourcepg" class="source"><p class="fa fa-code" style="font-size:20px"> Source Code</p></div></a>
+	  				<br>
+	  		</ul>
+	  		<p class="clear"></p>
+	  		<div class="projs"><img class="projimg" src="Images/Mandelbrot.jpg" class= "img-responsive" width="280px" height="200px" alt="Big Catch"></div>
+  			<ul type="disc" class="projdesc">
+  					<p id="mjtitle" class="projtitle">Mandelbrot and Julia Sets</p>
+	  				<li>Generates user customized Mandelbrot and Julia sets using complex number implementation</li>
+	  				<li>Zoomable view to display more detail on any section</li>
+	  				<li>Displayed using an RGB colour scale</li>
+	  				<a href="https://github.com/SamatarUW/MandelbrotSet"><div id="sourcemj" class="source"><p class="fa fa-code" style="font-size:20px"> Source Code</p></div></a>
+	  				<br>
+	  		</ul>
+	  		<p class="clear"></p>
+
+  		<hr>
+  	</div>
+
+  	<center><div class="container">
+		<div id="smallc" class="topc"></div>
+		<div id="circle"></div>
+		<div id="bigc"></div>
+		<div id="circle"></div>
+		<div id="smallc"></div>
+	</div></center>
+
+  	<div class="container">
   		<div>
   			<p class="title">Skills</p>
   		</div>
-  		<div class="well" id="skillwell">
-  		    <center>Over the years I have picked up a few languages. These can further be divided into two categories:</center>
-  			<div id="wk">
-  				<h3 id="wtitle">Working Knowledge</h3>
-	  			<ul>
-	  				<li>Java</li>
-	  				<li>Python</li>
-	  				<li>Scheme</li>
-	  				<li>C</li>
-	  				<li>C++</li>
-	  				<li class="last">Bash</li>
-	  			</ul>
-  			</div>
-  			
-  			<div id="bk">
-  				<h3 id="btitle">Basic Knowledge</h3>
-	  			<ul>
-	  				<li>Java-script</li>
-	  				<li>jQuery</li>
-	  				<li>MySQL</li>
-	  				<li class="last">PHP</li>
-	  			</ul>
-  			</div>
-  		</div>			
+  		<hr>
+  		<!--<div id="skillbar"><p id="zero">0%</p>Skill Level <p id="hunned">100%</p></div>
+  		<p class="clear"></p>-->
+  		<div id="skills">
+  			<div class="skill">SQL</div>
+  			<div class="skill">Java</div>
+  			<div class="skill">Python</div>
+  			<div class="skill">C</div>
+  			<div class="skill">C++</div>
+  			<div class="skill">Scheme</div>
+  			<br class="clear">
+  			<div class="skill">HTML</div>
+  			<div class="skill">CSS</div>
+  			<div class="skill">JavaScript</div>
+  			<div class="skill">jQuery</div>
+  			<div class="skill">LotusScript</div>
+  		</div>
+	  	<p class="clear"></p>
+  		<hr>
   	</div>
-
-  	<div id="contacticon" class="container">
-		<center><div id="smallc"></div></center>
-		<center><div id="circle"></div></center>
-		<center><div id="bigc"></div></center>
-		<center><div id="circle"></div></center>
-		<center><div id="smallc"></div></center>
-	</div>
-
-  	<center>
-	  	<div class="panel">
-	  	CONTACT ME!
-		  <div class="panel-body">
-		  	<a href="https://www.facebook.com/samatar.abukar"><i class="fa fa-facebook-square" style="font-size:50px"></i></a>
-		  	<a href="https://www.linkedin.com/in/samatar-abukar-34128594?trk=hp-identity-name"><i class="fa fa-linkedin-square" style="font-size:50px"></i></a>
-		  	<a href="https://github.com/SamatarUW"><i class="fa fa-github-alt" style="font-size:50px"></i></a>
-		  	<a href="https://twitter.com/Somaliatar"><i class="fa fa-twitter-square" style="font-size:50px"></i></a>
-		  </div>
-		  
-		</div>
-	</center>
   	
 </body>
 </html>
